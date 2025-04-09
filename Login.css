@@ -1,0 +1,119 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #dfdfdf;
+}
+
+.login-box{
+    /* background-color: aquamarine; */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 440px;
+    height: 440px;
+    padding: 30px;
+}
+
+.login-header{
+    text-align: center;
+    margin: 20px 0 50px 0;
+}
+
+.login-header h1{
+    color: #333;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.input-box .input-field{
+    width: 400px;
+    height: 60px;
+    font-size: 17px;
+    padding: 0 25px;
+    margin-bottom: 15px;
+    border-radius: 30px;
+    border: none;
+    box-shadow: 0px 5px 10px 1px rgba(0,0,0,0.5);
+    outline: none;
+    transition: 0.3s;
+
+}
+
+::placeholder{
+    font-weight: 500;
+    color: #222;
+}
+.input-field:focus{
+    width: 420px;
+}
+
+.forgot{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.forgot section{
+    display: flex;
+    align-items: center;
+    font-size: 17px;
+    color: #555;
+}
+
+section a{
+    color: #555;
+}
+
+#check{
+    margin-right: 10px;
+}
+
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+.submit-btn{
+    width: 450px;
+    height: 60px;
+    background-color: indianred;
+    color: white;
+    font-weight: 500;
+    border: none;
+    border-radius: 30px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.submit-btn:hover{
+    background-color: transparent;
+    border: 1px solid indianred;
+    color: #000;
+}
+
+.Signup-link{
+    position: relative;
+    top: 20px;
+    left: 70px;
+}
+
+.Signup-link a{
+    color: #000;
+    font-weight: 600;
+   
+}
+
